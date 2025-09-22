@@ -1,55 +1,59 @@
 <!DOCTYPE html>
-
-<nav>
-    <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="news.html">Новости</a></li>
-        <li><a href="practices.html">Практики</a></li>
-        <li><a href="goods.html">Товары</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-    </ul>
-</nav>
-
-<main>
-    <section id="author">
-        <h2>Информация об авторе</h2>
-        <!-- Поменяйте photo.png на своё фото -->
-        <img src="stethem.ico" alt="Фото автора" width="200" height="250">
-        <p><strong>Кирьянов Антон Федорович</strong></p>
-        <p>Группа: ЭФБО-18-24</p>
-
-        <h3>Обо мне</h3>
-        <p>Играю в футбол. Апнул 10 lvl faceit в 14 лет</p>
-    </section>
-
-    <section id="skills">
-        <h3>Навыки</h3>
-        <div>Навык 1: HTML</div>
-        <div>Навык 2: CSS (базовый)</div>
-        <div>Навык 3: JavaScript (базовый)</div>
-        <div>Навык 4: Git</div>
-    </section>
-
-    <section id="experience">
-        <h3>Мой опыт</h3>
-        <article>
-            <h4>Опыт 1</h4>
-            <p>Играл в кс, пока все учились</p>
-        </article>
-        <article>
-            <h4>Опыт 2</h4>
-            <p>Узнал кучу фактов про родителей</p>
-        </article>
-        <article>
-            <h4>Опыт 3</h4>
-            <p>Поступил в лучший мировой топовый худший вуз мира и России РТУ МИРЭА</p>
-        </article>
-    </section>
-</main>
-
-<footer>
-    <p>© 2025  А.Ф. — Контакты: <a href="contacts.html">страница контактов</a></p>
-</footer>
-</body>
-
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Семестровая работа</title>
+        <link rel="stylesheet" href="style/styles.css">
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="header">Хэдер</div>
+            <div class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/news.html">Новости</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/practices.html">Практики</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="pages/goods.html">Товары</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="profile-header">
+                    <h1 class="profile-title">Информация об авторе</h1>
+                    <img class="profile-photo" src="../images/stethem.ico" alt="Фото автора">
+                    <h2 class="profile-name">Кирьянов Антон Федорович</h2>
+                    <p class="profile-group">ЭФБО-18-24</p>
+                </div>
+                
+                <div class="about-me">
+                    <p>Обо мне: Люблю в футбол. Апнул 10 lvl faceit в 14 лет.</p>
+                </div>
+                
+                <div class="skills-container">
+                    <div class="skill-tag">Навык 1</div>
+                    <div class="skill-tag">Навык 2</div>
+                    <div class="skill-tag">Навык 3</div>
+                    <div class="skill-tag">Навык 4</div>
+                </div>
+                
+                <div class="experience-section">
+                    <h2 class="section-title">Мой опыт работы</h2>
+                    <div class="experience-card">
+                        <h3 class="experience-title">Опыт 1</h3>
+                        <p class="experience-desc">Вошел в топ 20 лучших игроков 10lvl faceit в 2020 году.</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-title">Опыт 2</h3>
+                        <p class="experience-desc">Узнал много нового про родителей.</p>
+                    </div>
+                    <div class="experience-card">
+                        <h3 class="experience-title">Опыт 3</h3>
+                        <p class="experience-desc">Выучил английский язык.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">Футер</div>    
+        </div>
+    </body>
 </html>

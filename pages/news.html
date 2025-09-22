@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости - Наш сайт</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        .nav {
+            background-color: #34495e;
+            padding: 0.5rem;
+        }
+        
+        .nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+        
+        .nav a:hover {
+            background-color: #1abc9c;
+            border-radius: 4px;
+        }
+        
+        .main-content {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .news-article {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-left: 4px solid #1abc9c;
+        }
+        
+        .news-title {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .news-meta {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #ecf0f1;
+            padding-bottom: 0.5rem;
+        }
+        
+        .news-text {
+            line-height: 1.8;
+            color: #2c3e50;
+        }
+        
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Хэдер -->
+    <header class="header">
+        <h1>Наш сайт</h1>
+        <p>Добро пожаловать на наш новостной портал</p>
+    </header>
+
+    <!-- Меню навигации -->
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="goods.html">Товары</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <!-- Основной контент -->
+    <main class="main-content">
+        <article class="news-article">
+            <h2 class="news-title">Запуск нового продукта</h2>
+            <div class="news-meta">
+                <time datetime="2024-01-15">15 января 2024</time> | Автор: Иван Петров
+            </div>
+            <div class="news-text">
+                <p>Мы рады сообщить о запуске нашего нового продукта, который революционизирует подход к решению повседневных задач. После месяцев разработки и тестирования мы готовы представить инновационное решение, которое поможет нашим клиентам достигать новых высот в своей деятельности.</p>
+                <p>Новый продукт сочетает в себе передовые технологии и удобство использования, делая сложные процессы простыми и доступными для каждого пользователя.</p>
+            </div>
+        </article>
+
+        <article class="news-article">
+            <h2 class="news-title">Расширение команды разработки</h2>
+            <div class="news-meta">
+                <time datetime="2024-01-10">10 января 2024</time> | Автор: Мария Сидорова
+            </div>
+            <div class="news-text">
+                <p>Наша компания продолжает расти и развиваться. Мы с гордостью объявляем о расширении команды разработки на 5 новых талантливых специалистов. Это стратегическое решение позволит нам ускорить реализацию текущих проектов и начать работу над новыми перспективными направлениями.</p>
+                <p>Мы уверены, что новые сотрудники внесут ценный вклад в развитие нашей компании и помогут нам достигать еще больших успехов.</p>
+            </div>
+        </article>
+
+        <article class="news-article">
+            <h2 class="news-title">Партнерство с ведущей компанией</h2>
+            <div class="news-meta">
+                <time datetime="2024-01-05">5 января 2024</time> | Автор: Алексей Иванов
+            </div>
+            <div class="news-text">
+                <p>Мы заключили стратегическое партнерство с одной из ведущих компаний в нашей отрасли. Это сотрудничество откроет новые возможности для наших клиентов и позволит предлагать более комплексные и эффективные решения.</p>
+                <p>Партнерство включает обмен технологиями, совместную разработку новых продуктов и расширение географии предоставляемых услуг.</p>
+            </div>
+        </article>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <p>&copy; 2024 Наш сайт. Все права защищены.</p>
+        <p>Контактная информация: info@example.com | +7 (123) 456-78-90</p>
+    </footer>
+</body>
+</html>
